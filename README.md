@@ -1,6 +1,7 @@
 ## Toito messenger for Android
 
 This is an UNOFFICIAL app that uses Telegram's API
+
 It adds some extra features to the official Telegram app:
 
 [Telegram](https://telegram.org) is a messaging app with a focus on speed and security. It’s superfast, simple and free.
