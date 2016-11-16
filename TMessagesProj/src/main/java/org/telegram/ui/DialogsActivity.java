@@ -736,12 +736,9 @@ public class DialogsActivity extends BaseFragment implements NotificationCenter.
             }
             listView.setAdapter(dialogsAdapter);
         }
-        int type = 0;
-        if (searchString != null) {
-            type = 2;
-        } else if (!onlySelect) {
-            type = 1;
-        }
+        
+        int type = searchString != ? type = 2 : !onlySelect type = 1 : 0;
+        
         dialogsSearchAdapter = new DialogsSearchAdapter(context, type, dialogsType);
         dialogsSearchAdapter.setDelegate(new DialogsSearchAdapter.DialogsSearchAdapterDelegate() {
             @Override
